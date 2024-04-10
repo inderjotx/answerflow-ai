@@ -17,7 +17,7 @@ export const Navbar = () => {
                 <h1 className='font-bold' >Logo</h1>
 
 
-                <div className='hidden gap-4 md:flex   text-sm font-semibold'>
+                <div className='hidden gap-4 md:flex translate-x-16  text-sm font-semibold'>
                     <h2>Usecases</h2>
                     <h2>Pricing</h2>
                     <h2>Blog</h2>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Carousel } from './Carousel'
-import { Button } from './ui/button'
 import { HeroButton } from './HeroButton'
 
 
@@ -14,7 +13,7 @@ export const Hero = () => {
                 <h1 className="text-6xl font-semibold mx-auto" >Just Chat with your Data</h1>
                 <h3 className="text-xl" > Affordable way to build CustomGPT Bots, trained on your Data. <span className="text-orange-500 font-medium" > Using your own OpenAI API Key! </span>  </h3>
 
-                <div className="flex items-center flex-col " >
+                <div className="flex items-center flex-col  " >
                     <HeroButton />
                     <span className="text-sm text-muted-foreground mt-3">Cancel Anytime</span>
                     <span className="text-sm text-muted-foreground"  >100+ Customers are saving on AI Bots</span>
