@@ -10,7 +10,7 @@ export const Navbar = () => {
         <motion.nav
             initial={{ y: -90 }}
             animate={{ y: 0 }}
-            transition={{ duration: 0.5, ease: "linear" }}
+            transition={{ duration: 0.3, ease: "linear" }}
             className='px-4 md:px-8 py-4 z-10 fixed  top-2 right-0 left-0' >
             <div className='border backdrop-blur-md bg-transparent h-16 px-4 md:px-10 rounded-sm items-center flex justify-between' >
 
