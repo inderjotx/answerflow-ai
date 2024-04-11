@@ -24,7 +24,7 @@ export function Carousel() {
                     <motion.li
                         initial={{ filter: "blur(20px)" }}
                         animate={{ filter: "blur(0px)" }}
-                        transition={{ duration: 0.5 }}
+                        transition={{ delay: 0.7, duration: 0.5 }}
                         key={index}>
                         <Image src={logo.src} placeholder='blur' blurDataURL={logo.src} height={110} width={110} alt={logo.alt} />
                     </motion.li>
@@ -35,7 +35,7 @@ export function Carousel() {
                     <motion.li
                         initial={{ filter: "blur(20px)" }}
                         animate={{ filter: "blur(0px)" }}
-                        transition={{ duration: 0.5 }}
+                        transition={{ delay: 0.7, duration: 0.5 }}
                         key={index}>
                         <Image src={logo.src} placeholder='blur' blurDataURL={logo.src} height={110} width={110} alt={logo.alt} />
                     </motion.li>

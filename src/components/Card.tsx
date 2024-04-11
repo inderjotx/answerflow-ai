@@ -5,7 +5,7 @@ type Props = {
 
 }
 
-enum StarLocation {
+export enum StarLocation {
     Start,
     Middle,
     End
