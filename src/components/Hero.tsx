@@ -13,7 +13,7 @@ const revealVariants = {
 
 export const Hero = () => {
     return (
-        <div className='w-full bg-[url("/bg-1.png")] ' >
+        <div className='w-full  ' >
             <Carousel />
 
 
